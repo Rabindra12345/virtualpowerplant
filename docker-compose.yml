@@ -14,7 +14,7 @@ services:
 
   app:
     build: .
-    container_name: springboot-app
+    container_name: virtualpowerplant_app
     environment:
       SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/batterydb?allowPublicKeyRetrieval=true&useSSL=false
       SPRING_DATASOURCE_USERNAME: root
